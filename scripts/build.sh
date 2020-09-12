@@ -16,7 +16,6 @@ do
   browser_output_dir="lib/$browser"
   cp src/manifest.json "lib/$browser/manifest.json"
   mkdir -p "$browser_output_dir/dgg"
-  cp -R "${dgg_output_dir}/fonts" "$browser_output_dir/dgg"
   cp -R "${dgg_output_dir}/img" "$browser_output_dir/dgg"
   cp -R "${dgg_output_dir}/img/emoticons" "$browser_output_dir/dgg"
   cp -R "${dgg_output_dir}/img/emoticons-animated" "$browser_output_dir/dgg"
